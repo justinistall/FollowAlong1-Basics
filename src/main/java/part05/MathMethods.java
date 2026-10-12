@@ -16,4 +16,42 @@ package part05;
 
 public class MathMethods {
 
+    public static void main(String[] args) {
+        double x = 3.14;
+        double y = -10;
+
+        double z = Math.max(x, y);
+        System.out.println(z);
+
+        double max = Math.max(x, y);
+
+        // This finds the smaller number
+        double min = Math.min(x, y);
+
+        // This makes the number positive
+        double abs = Math.abs(y);
+
+        // This finds the square root
+        double sqrt = Math.sqrt(9);
+
+        // This rounds to the nearest whole number
+        long round = Math.round(x);
+
+        // This rounds the number up
+        double ceil = Math.ceil(x);
+
+        // This rounds the number down
+        double floor = Math.floor(x);
+
+        // This prints the answers
+        System.out.println(max);
+        System.out.println(min);
+        System.out.println(abs);
+        System.out.println(sqrt);
+        System.out.println(round);
+        System.out.println(ceil);
+        System.out.println(floor);
+
+    }
+
 }

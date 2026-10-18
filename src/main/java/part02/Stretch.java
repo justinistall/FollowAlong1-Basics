@@ -7,7 +7,30 @@ package part02;
 // SECTION C — Stretch. Do Stretch A, then Stretch B. The README says what each one should print.
 //
 // There is no main method here yet. Typing it is part of the stretch.
-
 public class Stretch {
+    public static void main(String[] args) {
 
+        // Stretch B1
+        char letter = 'J';
+        int age = 19;
+        double height = 6.5;
+        boolean student = true;
+
+        System.out.println(letter);
+        System.out.println(age);
+        System.out.println(height);
+        System.out.println(student);
+
+        // Stretch B2
+        char initial = 'J';
+        int classes = 4;
+        double credits = 15.5;
+        boolean hasJob = true;
+        String major = "Information Technology";
+
+        System.out.println(initial + " takes " + classes
+                + " classes in " + major + " for "
+                + credits + " credit hours. Has a job: "
+                + hasJob);
+    }
 }

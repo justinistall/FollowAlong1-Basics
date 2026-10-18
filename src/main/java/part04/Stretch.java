@@ -8,6 +8,43 @@ package part04;
 //
 // There is no main method here yet. Typing it is part of the stretch.
 
-public class Stretch {
 
+
+public class Stretch {
+    public static void main(String[] args) {
+
+        // Stretch A
+        int a = 20;
+        int b = 6;
+
+        // Addition
+        System.out.println(a + b);
+
+        // Subtraction
+        System.out.println(a - b);
+
+        // Multiplication
+        System.out.println(a * b);
+
+        // Division
+        System.out.println(a / b);
+
+        // Remainder
+        System.out.println(a % b);
+
+        // Stretch B
+        int number = 10;
+
+        // Increase by 1
+        number++;
+        System.out.println(number);
+
+        // Decrease by 1
+        number--;
+        System.out.println(number);
+
+        // Casting to a double
+        double result = (double) a / b;
+        System.out.println(result);
+    }
 }

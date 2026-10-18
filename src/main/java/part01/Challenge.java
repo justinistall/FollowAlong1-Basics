@@ -9,5 +9,29 @@ package part01;
 // There is no main method here yet. Typing it is part of the challenge.
 
 public class Challenge {
+    public static void main(String[] args) {
 
+        // This prints the top of the house
+        System.out.println("       /\\");
+        System.out.println("      /  \\");
+        System.out.println("     /____\\");
+
+        // This prints the walls and windows
+        System.out.println("     | [] |");
+        System.out.println("     |    |");
+
+        // This prints the door
+        System.out.println("     | __ |");
+        System.out.println("     ||  ||");
+        System.out.println("     ||__||");
+
+        // This prints the bottom
+        System.out.println("     ------");
+
+        // This prints a message using a tab
+        System.out.println("\tMy Dream House");
+
+        // This prints quotation marks
+        System.out.println("\"Home Sweet Home\"");
+    }
 }

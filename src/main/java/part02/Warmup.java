@@ -13,4 +13,16 @@ package part02;
 
 public class Warmup {
 
+    // This starts the program.
+    public static void main(String[] args) {
+
+        // This prints my name.
+        System.out.println("Name: Justin Halstead");
+
+        // This prints my school.
+        System.out.println("School: Delaware State University");
+
+        // This prints my major.
+        System.out.println("Major: Information Technology");
+    }
 }

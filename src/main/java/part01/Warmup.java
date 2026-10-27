@@ -13,4 +13,16 @@ package part01;
 
 public class Warmup {
 
+    // This starts the program.
+    public static void main(String[] args) {
+
+        // This prints the part number.
+        System.out.println("=== Part 00 ===");
+
+        // This prints my name.
+        System.out.println("Hello from Justin Halstead");
+
+        // This shows that the program works.
+        System.out.println("If you can read this, your setup works.");
+    }
 }

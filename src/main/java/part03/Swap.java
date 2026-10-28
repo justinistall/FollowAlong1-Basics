@@ -14,6 +14,37 @@ package part03;
 // SECTION B — COMMENTS: when you finish, put a // comment ABOVE every line of code,
 //    saying in YOUR OWN WORDS what that line does. The README shows an example.
 
+
+
+
 public class Swap {
 
+    // This starts the program
+    public static void main(String[] args) {
+
+        // Create the first variable
+        int a = 10;
+
+        // Create the second variable
+        int b = 20;
+
+        // Print the values before swapping
+        System.out.println("Before swap:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+
+        // Save the value of a temporarily
+        int temp = a;
+
+        // Put the value of b into a
+        a = b;
+
+        // Put the original value of a into b
+        b = temp;
+
+        // Print the values after swapping
+        System.out.println("After swap:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
 }
